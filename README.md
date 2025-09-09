@@ -1,9 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hangman
 
-## Getting Started
+**Hangman** is a simple word guessing game built using **Next.js**, **Electron**, and **Tailwind CSS** for the UI, with game logic implemented in **JavaScript**.
 
-First, run the development server:
+## Game Description
 
+When you start the game, you can choose one of the available categories. A random word from the selected category is displayed as blank lines corresponding to its letters.  
+The goal is to guess the hidden word correctly by selecting letters. You have a total of **7 incorrect guesses**. If you complete the word before running out of chances, you win!  
+
+## Technologies Used
+
+- **Next.js** – Frontend framework  
+- **Electron** – Desktop app wrapper  
+- **Tailwind CSS** – UI styling  
+- **JavaScript** – Game logic  
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/HangMan-Electron.git
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   
+3. **Run the application**
 ```bash
 npm run dev
 # or
@@ -14,23 +35,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Thank you for checking out Hangman! Have fun playing:)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
