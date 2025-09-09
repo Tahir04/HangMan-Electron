@@ -25,15 +25,15 @@ The goal is to guess the hidden word correctly by selecting letters. You have a 
    npm install
    
 3. **Run the application**
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
 ---
 
